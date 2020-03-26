@@ -52,6 +52,16 @@
         "Tests\\": "tests"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "UniSharp\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
 {
     "repositories": [
         {
@@ -63,13 +73,3 @@
         "UniSharp/laravel-filemanager": "dev-add7.2"
     }
 }  
-  "extra": {
-    "laravel": {
-      "providers": [
-        "UniSharp\\LaravelFilemanager\\LaravelFilemanagerServiceProvider"
-      ],
-      "aliases": {
-      }
-    }
-  }
-}
