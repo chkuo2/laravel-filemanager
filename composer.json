@@ -52,6 +52,17 @@
         "Tests\\": "tests"
     }
   },
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/UniSharp/laravel-filemanager"
+        }
+    ],
+    "require": {
+        "UniSharp/laravel-filemanager": "dev-add7.2"
+    }
+}  
   "extra": {
     "laravel": {
       "providers": [
